@@ -14,6 +14,8 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/cosmo/bootstrap.min.css">
 
+    <link rel="stylesheet" href="main.css">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -30,10 +32,59 @@
       </div>
     </div>
 
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="text-muted"><a href="" data-toggle="modal" data-target="#myModal">Cookies Policy</a>.</p>
+          </div>
+        </div>
+
+        
+      </div>
+    </footer>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Cookies Policy</h4>
+          </div>
+          <div class="modal-body">
+            <p>Navigando nelle pagine del sito alcuni cookies c.d. tecnici potrebbero essere installati sul tuo browser. Si tratta di cookies che servono esclusivamente a consentirti una migliore esperienza di navigazione ma che non ci consentono di archiviare nessun tuo dato personale utilizzabile ad altri scopi.</p>
+
+            <p>Al fine di disporre di dati statistici relativi alle visite sul sito, inoltre, potrebbe essere installato sul vostro browser un ulteriore cookie che, tuttavia, non consentirà né al titolare del sito, né a terzi di risalire alla Vostra identità e sarà utilizzato esclusivamente al fine di registrare, in forma aggregata, il dato relativo ad un accesso in più su queste pagine.</p>
+
+            <p>Per sapere di più su cosa sono i cookies, leggi <a href="http://it.wikipedia.org/wiki/Cookie">qui</a>.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
     </script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-9579557-1', 'auto');
+      ga('set', 'anonymizeIp', true);
+      ga('send', 'pageview');
+    </script>
   </body>
 </html>
